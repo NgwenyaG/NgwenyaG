@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 90%;
+            max-width: 400px;
+        }
+        h1 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #0073e6;
+        }
+        p {
+            margin: 10px 0;
+        }
+        a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Information</h1>
+        <p>Email: <a href="mailto:siphog.ngwenya@gmail.com">youremail@example.com</a></p>
+        <p>Mobile: <a href="tel:+27694932975">+27694932975</a></p>
+        <p>WhatsApp: <a href="https://wa.me/27694932975" target="_blank">Chat on WhatsApp</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/yourusername" target="_blank">@sipho_g</a></p>
+        <p>Facebook: <a href="https://www.facebook.com/yourusername" target="_blank">facebook.com/yourusername>Sipho_g_ngwenya</a></p>
+    </div>
+</body>
+</html>
